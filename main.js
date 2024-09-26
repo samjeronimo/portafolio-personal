@@ -1,4 +1,5 @@
 import { navBarDiv } from "./componentes/navBar/navbar.js";
+import { proyectos } from "./componentes/proyectos/project.js";
 
 
 /* COMPONENTES DE LA PÁGINA */ 
@@ -13,5 +14,5 @@ DOM.appendChild(navBar);
 
 let proyect = document.createElement('section');
 proyect.className = "proyect";
-proyect.innerText = "Hola mundo soy proyect";
+proyect.appendChild(proyectos());
 DOM.appendChild(proyect);
