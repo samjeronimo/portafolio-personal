@@ -11,4 +11,5 @@ let h2 = document.createElement('h2');
 h2.innerText = "Samuel Jerónimo";
 navBarDiv.appendChild(h2);
 
+
 export { navBarDiv }

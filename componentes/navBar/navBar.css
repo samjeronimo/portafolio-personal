@@ -17,3 +17,226 @@
 .nav-bar-div .img-logo {
     width: 4rem;
 }
+
+.div-herra {
+    width: 25rem;
+    height: 45rem;
+    margin: 2.3rem 1rem;
+    padding: 2rem 1rem;
+    gap: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.div-herra .mini-Herra {
+    width: 23rem;
+    height: 4.5rem;
+    border: 1px solid gray;
+
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-herra .mini-Herra .cuadro-herra {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+    background-color: rebeccapurple;
+}
+
+.div-herra .mini-Herra h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*2*/
+.div-herra .mini-Herra2 {
+    width: 23rem;
+    height: 4.5rem;
+    border: 1px solid gray;
+
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-herra .mini-Herra2 .cuadro-herra2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgb(22, 102, 134);
+}
+
+.div-herra .mini-Herra2 h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*3*/
+.div-herra .mini-Herra3 {
+    width: 23rem;
+    height: 4.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-herra .mini-Herra3 .cuadro-herra3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+    background-color: orangered;
+}
+
+.div-herra .mini-Herra3 h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*4*/
+.div-herra .mini-Herra4 {
+    width: 23rem;
+    height: 4.5rem;
+    border: 1px solid gray;
+
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-herra .mini-Herra4 .cuadro-herra4 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+    background-color: green;
+}
+
+.div-herra .mini-Herra4 h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*5*/
+.div-herra .mini-Herra5 {
+    width: 23rem;
+    height: 4.5rem;
+    border: 1px solid gray;
+
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-herra .mini-Herra5 .cuadro-herra5 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+    background-color: red;
+}
+
+.div-herra .mini-Herra5 h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+/*6*/
+.div-herra .mini-Herra6 {
+    width: 23rem;
+    height: 4.5rem;
+    border: 1px solid gray;
+
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+.div-herra .mini-Herra6 .cuadro-herra6 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: auto;
+    background-color: black;
+}
+
+.div-herra .mini-Herra6 h3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.Formulario {
+    width: 28rem;
+    height: 34rem;
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem
+}
+
+
+.Formulario .cuadro1 {
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Formulario .cuadro2 {
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Formulario .cuadro3 {
+    width: 100%;
+    height: 15rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.Formulario .btn-enviar {
+    width: 40%;
+    height: 4.5rem;
+    border-radius: 8px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
